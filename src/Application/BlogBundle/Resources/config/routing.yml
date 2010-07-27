@@ -1,0 +1,7 @@
+homepage:
+    pattern:  /
+    defaults: { _controller: BlogBundle:Blog:index }
+
+blog_view:
+    pattern:  /blog/:blog_id
+    defaults: { _controller: BlogBundle:Blog:view }

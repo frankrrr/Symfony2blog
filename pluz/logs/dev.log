@@ -1,0 +1,79 @@
+2010-07-27T15:09:13+02:00 ERR: Unable to read the profiler information.
+2010-07-27T15:09:13+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'FoundationBundle:Default:index',  '_route' => 'homepage',))
+2010-07-27T15:09:13+02:00 INFO: Using controller "Symfony\Framework\FoundationBundle\Controller\DefaultController::indexAction"
+2010-07-27T15:09:13+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/vendor/symfony/src/Symfony/Framework/FoundationBundle/Resources/views/Default/index.php" (renderer: php)
+2010-07-27T15:12:50+02:00 ERR: No route found for 
+2010-07-27T15:12:50+02:00 ERR: Unable to look for the controller as the "_controller" parameter is missing
+2010-07-27T15:12:50+02:00 ERR: Unable to find the controller. (uncaught Symfony\Components\HttpKernel\Exception\NotFoundHttpException exception)
+2010-07-27T15:12:50+02:00 INFO: Using controller "Symfony\Framework\FoundationBundle\Controller\ExceptionController::exceptionAction"
+2010-07-27T15:12:50+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/vendor/symfony/src/Symfony/Framework/FoundationBundle/Resources/views/Exception/exception.html.php" (renderer: php)
+2010-07-27T15:13:34+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'BlogBundle:Blog:index',  '_route' => 'homepage',))
+2010-07-27T15:13:34+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::indexAction"
+2010-07-27T15:13:34+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/index.php" (renderer: php)
+2010-07-27T15:13:34+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T15:13:44+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'title' => 'ruudje',  '_route' => 'blog_view',))
+2010-07-27T15:13:44+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T15:13:44+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/view.php" (renderer: php)
+2010-07-27T15:13:44+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T15:55:36+02:00 INFO: SHOW FULL TABLES WHERE Table_type = "BASE TABLE" (array ())
+2010-07-27T15:56:05+02:00 INFO: SHOW FULL TABLES WHERE Table_type = "BASE TABLE" (array ())
+2010-07-27T15:56:05+02:00 INFO: CREATE TABLE post (id INT AUTO_INCREMENT NOT NULL, title VARCHAR(255) NOT NULL, body LONGTEXT NOT NULL, createdAt DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = InnoDB (array ())
+2010-07-27T15:57:12+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'BlogBundle:Blog:index',  '_route' => 'homepage',))
+2010-07-27T15:57:12+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::indexAction"
+2010-07-27T15:57:12+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/index.php" (renderer: php)
+2010-07-27T15:57:12+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T15:58:07+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'BlogBundle:Blog:index',  '_route' => 'homepage',))
+2010-07-27T15:58:07+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::indexAction"
+2010-07-27T15:58:07+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.body AS body3, t0.createdAt AS createdAt4 FROM post t0 (array ())
+2010-07-27T15:58:07+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/index.php" (renderer: php)
+2010-07-27T15:58:07+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T15:58:48+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'BlogBundle:Blog:index',  '_route' => 'homepage',))
+2010-07-27T15:58:48+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::indexAction"
+2010-07-27T15:58:49+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.body AS body3, t0.createdAt AS createdAt4 FROM post t0 (array ())
+2010-07-27T15:58:49+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/index.php" (renderer: php)
+2010-07-27T15:58:49+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T15:59:58+02:00 INFO: SHOW FULL TABLES WHERE Table_type = "BASE TABLE" (array ())
+2010-07-27T15:59:58+02:00 INFO: DESCRIBE post (array ())
+2010-07-27T15:59:58+02:00 INFO: SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON k.`CONSTRAINT_NAME` = c.constraint_name AND   c.constraint_name = k.constraint_name AND   c.table_name = 'post' */ WHERE k.table_name = 'post' AND table_schema = 'symfony2blog' AND `REFERENCED_COLUMN_NAME` is not NULL (array ())
+2010-07-27T15:59:58+02:00 INFO: SHOW INDEX FROM post (array ())
+2010-07-27T15:59:58+02:00 INFO: ALTER TABLE post ADD summary LONGTEXT NOT NULL (array ())
+2010-07-27T16:01:00+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'BlogBundle:Blog:index',  '_route' => 'homepage',))
+2010-07-27T16:01:00+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::indexAction"
+2010-07-27T16:01:01+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 (array ())
+2010-07-27T16:01:01+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/index.php" (renderer: php)
+2010-07-27T16:01:01+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T16:02:16+02:00 INFO: Matched route "homepage" (parameters: array (  '_controller' => 'BlogBundle:Blog:index',  '_route' => 'homepage',))
+2010-07-27T16:02:16+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::indexAction"
+2010-07-27T16:02:16+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 (array ())
+2010-07-27T16:02:16+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/index.php" (renderer: php)
+2010-07-27T16:02:16+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T16:02:18+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:02:18+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:02:18+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 WHERE t0.id = ? (array (  0 => '1',))
+2010-07-27T16:02:18+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/view.php" (renderer: php)
+2010-07-27T16:02:18+02:00 ERR: Notice: Undefined variable: title in /www/symfony2blog/src/Application/BlogBundle/Resources/views/Blog/view.php line 5 (uncaught ErrorException exception)
+2010-07-27T16:02:18+02:00 INFO: Using controller "Symfony\Framework\FoundationBundle\Controller\ExceptionController::exceptionAction"
+2010-07-27T16:02:18+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/vendor/symfony/src/Symfony/Framework/FoundationBundle/Resources/views/Exception/exception.html.php" (renderer: php)
+2010-07-27T16:02:42+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:02:42+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:02:42+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 WHERE t0.id = ? (array (  0 => '1',))
+2010-07-27T16:02:42+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/view.php" (renderer: php)
+2010-07-27T16:03:02+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:03:02+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:06:24+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:06:24+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:06:24+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 WHERE t0.id = ? (array (  0 => '1',))
+2010-07-27T16:06:24+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/view.php" (renderer: php)
+2010-07-27T16:06:31+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:06:31+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:06:31+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 WHERE t0.id = ? (array (  0 => '1',))
+2010-07-27T16:06:47+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:06:47+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:06:47+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 WHERE t0.id = ? (array (  0 => '1',))
+2010-07-27T16:06:47+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/view.php" (renderer: php)
+2010-07-27T16:06:47+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
+2010-07-27T16:06:59+02:00 INFO: Matched route "blog_view" (parameters: array (  '_controller' => 'BlogBundle:Blog:view',  'blog_id' => '1',  '_route' => 'blog_view',))
+2010-07-27T16:06:59+02:00 INFO: Using controller "Application\BlogBundle\Controller\BlogController::viewAction"
+2010-07-27T16:06:59+02:00 INFO: SELECT t0.id AS id1, t0.title AS title2, t0.summary AS summary3, t0.body AS body4, t0.createdAt AS createdAt5 FROM post t0 WHERE t0.id = ? (array (  0 => '1',))
+2010-07-27T16:06:59+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views/Blog/view.php" (renderer: php)
+2010-07-27T16:06:59+02:00 INFO: Loaded template file "/www/symfony2blog/pluz/../src/Application/BlogBundle/Resources/views//layout.php" (renderer: php)
